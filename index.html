@@ -48,7 +48,7 @@
         <div class="navbar w-11/12 mx-auto">
           <div class="navbar-start">
             
-            <a href="#" class="text-3xl">
+            <a href="#" class="text-lg md:text-3xl">
               <i class="fa-solid fa-arrow-right -rotate-45 bg-green rounded-full p-2"></i>
               <span class="ms-1 font-bold">Rinterio</span>
             </a>
@@ -71,13 +71,13 @@
               Book Consult <i class="fa-solid fa-arrow-right -rotate-45 rounded-full p-2 bg-dark_3 text-white"></i>
               </a>
             </div>
-            <div class="dropdown">
+            <div class="dropdown relative">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <i class="fa-solid fa-bars text-2xl"></i>
               </div>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow absolute right-0">
                   <li><a class="text-dark_2">Home</a></li>
                   <li><a class="text-dark_1">Services</a></li>
                   <li><a class="text-dark_1">Portfolio</a></li>
@@ -89,7 +89,29 @@
         </div>
        </nav>
 
-       
+       <!-- banner section -->
+       <div class="banner px-3 bg-stone-100">
+        <div class="hero w-11/12 mx-auto">
+          <div class="hero-content text-center flex-col">
+            <img
+              src="./assets/banner.png"
+              class="" />
+            <div class="pb-10">
+              <h1 class="text-3xl md:6xl font-extrabold">A barn house of this design has a striking appearance</h1>
+              <p class="py-10">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+              </p>
+              <div class="">
+                <button class="btn w-full md:max-w-fit text-xl bg-lightGreen rounded-full py-7 content-center">
+                  View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-green rounded-full p-2"></i>
+                  </button>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
     </header>
+
+    
 </body>
 </html>
