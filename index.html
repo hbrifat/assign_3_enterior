@@ -40,6 +40,12 @@
               dark_2: "rgba(73, 73, 73, 1)",
               dark_3: "rgba(33, 33, 33, 1)",
               dark_4: "rgba(28, 28, 28, 1)",
+              light_pink: "rgba(231, 193, 211, 1)",
+              light_yellow: "rgba(239, 218, 110, 1)",
+              different_green: "rgba(164, 218, 195, 1)",
+              light_blue: "rgba(119, 170, 234, 1)",
+
+
             },
             fontFamily: {
               Manrope: "Manrope",
@@ -156,7 +162,7 @@
                 <i class="fa-solid fa-arrow-right"></i>
                 <span class="ms-1">About Us</span>
               </button>
-              <h2 class="text-3xl md:5xl font-bold my-3">
+              <h2 class="text-2xl md:text-4xl font-bold my-3">
                 We design thoughtful, liveable spaces
               </h2>
               <p class="py-5">
@@ -195,7 +201,82 @@
         </div>
       </section>
 
-      
+      <!-- How we works section -->
+       <section class="works bg-base-200 py-10">
+        <div class="hero container mx-auto">
+          <div class="hero-content">
+            <div class="max-w-full">
+                <div class="text-center">
+                  <button class="btn btn-sm bg-white rounded-full">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <span class="ms-1">How we works</span>
+                  </button>
+                  <h2 class="text-2xl md:text-4xl font-bold mt-3">Our Works Process</h2>
+                  <p class="py-6 text-dark_2 text-center">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.
+                  </p>
+                </div>
+
+              <!-- card group -->
+              <div class="card-group grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5">
+                <!-- card 1 -->
+                <div class="card bg-light_pink w-full shadow-md">
+                  <figure class="pt-5 self-start pl-5">
+                    <img
+                      src="./assets/concept.png"
+                      alt="concept"
+                      class="" />
+                  </figure>
+                  <div class="card-body">
+                    <h5 class="card-title font-extrabold text-xl text-dark_4">Concept</h5>
+                    <p class="text-dark_2">The barn house captivates with its blend of rustic charm and modern.</p>
+                  </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card bg-light_yellow w-full shadow-md">
+                  <figure class="pt-5 self-start pl-5">
+                    <img
+                      src="./assets/flow-chart.png"
+                      alt="design_process"
+                      class="" />
+                  </figure>
+                  <div class="card-body">
+                    <h5 class="card-title font-extrabold text-xl text-dark_4">Design Process</h5>
+                    <p class="text-dark_2">The barn house captivates with its blend of rustic charm and modern.</p>
+                  </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card bg-different_green w-full shadow-md">
+                  <figure class="pt-5 self-start pl-5">
+                    <img
+                      src="./assets/vision.png"
+                      alt="vision"
+                      class="" />
+                  </figure>
+                  <div class="card-body">
+                    <h5 class="card-title font-extrabold text-xl text-dark_4">Supervision</h5>
+                    <p class="text-dark_2">The barn house captivates with its blend of rustic charm and modern.</p>
+                  </div>
+                </div>
+                <!-- card 4 -->
+                <div class="card bg-light_blue w-full shadow-md">
+                  <figure class="pt-5 self-start pl-5">
+                    <img
+                      src="./assets/budget-planning.png"
+                      alt="Budget Planning"
+                      class="" />
+                  </figure>
+                  <div class="card-body">
+                    <h5 class="card-title font-extrabold text-xl text-dark_4">Budget Planning</h5>
+                    <p class="text-dark_2">The barn house captivates with its blend of rustic charm and modern.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+       </section>
     </main>
 
   </body>
